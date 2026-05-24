@@ -1,4 +1,4 @@
-use newschema;
+use sql_qlct;
 alter table design 
 add constraint architect_id
 foreign key(architect_id) references architect(id);
